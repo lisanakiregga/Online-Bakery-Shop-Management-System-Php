@@ -26,7 +26,7 @@ $extra="forgot-password.php";
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 header("location:http://$host$uri/$extra");
-$_SESSION['errmsg']="Invalid email id or Contact no";
+$_SESSION['errmsg']="Invalid email id or Contact number";
 exit();
 }
 }
@@ -87,7 +87,7 @@ function valid()
 {
  if(document.register.password.value!= document.register.confirmpassword.value)
 {
-alert("Password and Confirm Password Field do not match  !!");
+alert("Ooops! Password and Confirm Password Field do not match  !!");
 document.register.confirmpassword.focus();
 return false;
 }
@@ -145,11 +145,11 @@ echo htmlentities($_SESSION['errmsg']="");
 		    <input type="email" name="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required >
 		</div>
 	  	<div class="form-group">
-		    <label class="info-title" for="exampleInputPassword1">Contact no <span>*</span></label>
+		    <label class="info-title" for="exampleInputPassword1">Contact number <span>*</span></label>
 		 <input type="text" name="contact" class="form-control unicase-form-control text-input" id="contact" required>
 		</div>
 <div class="form-group">
-	    	<label class="info-title" for="password">Password. <span>*</span></label>
+	    	<label class="info-title" for="password">Password <span>*</span></label>
 	    	<input type="password" class="form-control unicase-form-control text-input" id="password" name="password"  required >
 	  	</div>
 
@@ -160,7 +160,7 @@ echo htmlentities($_SESSION['errmsg']="");
 
 
 		
-	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="change">Update</button>
+	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="change">Update changes</button>
 	</form>					
 </div>
 <!-- Sign-in -->

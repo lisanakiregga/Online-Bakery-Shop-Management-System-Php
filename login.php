@@ -12,7 +12,7 @@ $password=md5($_POST['password']);
 $query=mysqli_query($con,"insert into users(name,email,contactno,password) values('$name','$email','$contactno','$password')");
 if($query)
 {
-	echo "<script>alert('You are successfully register');</script>";
+	echo "<script>alert('You are successfully registered');</script>";
 }
 else{
 echo "<script>alert('Not register something went worng');</script>";
@@ -70,7 +70,7 @@ exit();
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Shopping Portal | Signi-in | Signup</title>
+	    <title>Shopping Portal | Sign-in | Signup</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -171,8 +171,8 @@ error:function (){}
 			<div class="row">
 				<!-- Sign-in -->			
 <div class="col-md-6 col-sm-6 sign-in">
-	<h4 class="">sign in</h4>
-	<p class="">Hello, Welcome to your account.</p>
+	<h4 class="">Sign in</h4>
+	<p class="">Hello, Welcome this is your account.</p>
 	<form class="register-form outer-top-xs" method="post">
 	<span style="color:red;" >
 <?php
@@ -191,7 +191,7 @@ echo htmlentities($_SESSION['errmsg']="");
 		 <input type="password" name="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1" >
 		</div>
 		<div class="radio outer-xs">
-		  	<a href="forgot-password.php" class="forgot-password pull-right">Forgot your Password?</a>
+		  	<a href="forgot-password.php" class="forgot-password pull-right">Forgot Password?</a>
 		</div>
 	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="login">Login</button>
 	</form>					

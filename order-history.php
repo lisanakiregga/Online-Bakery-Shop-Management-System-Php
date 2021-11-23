@@ -100,7 +100,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 					<th class="cart-qty item">Quantity</th>
 					<th class="cart-sub-total item">Price Per Cake</th>
 					<th class="cart-sub-total item">Delivery Cost</th>
-					<th class="cart-total item">Grandtotal</th>
+					<th class="cart-total item">Total bill</th>
 					<th class="cart-total item">Payment Method</th>
 					<th class="cart-description item">Order Date</th>
 					<th class="cart-total last-item">Action</th>

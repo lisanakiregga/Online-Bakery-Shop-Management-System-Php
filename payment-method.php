@@ -72,7 +72,7 @@ else{
 		<div class="checkout-box faq-page inner-bottom-sm">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Choose Payment Method</h2>
+					<h2>Choose Preferred Payment Method</h2>
 					<div class="panel-group checkout-steps" id="accordion">
 						<!-- checkout-step-01  -->
 <div class="panel panel-default checkout-step-01">

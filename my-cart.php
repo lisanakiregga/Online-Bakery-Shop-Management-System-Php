@@ -150,7 +150,7 @@ if(!empty($_SESSION['cart'])){
 					<th class="cart-qty item">Quantity</th>
 					<th class="cart-sub-total item">Price Per Cake</th>
 					<th class="cart-sub-total item">Delivery Cost</th>
-					<th class="cart-total last-item">Grandtotal</th>
+					<th class="cart-total last-item">Total cost</th>
 				</tr>
 			</thead><!-- /thead -->
 			<tfoot>
@@ -308,7 +308,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 				<th>
 					
 					<div class="cart-grand-total">
-						Grand Total<span class="inner-left-md"><?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
+						 Total bill<span class="inner-left-md"><?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
 					</div>
 				</th>
 			</tr>
@@ -317,7 +317,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 				<tr>
 					<td>
 						<div class="cart-checkout-btn pull-right">
-							<button type="submit" name="ordersubmit" class="btn btn-primary">PROCCED TO CHEKOUT</button>
+							<button type="submit" name="ordersubmit" class="btn btn-primary">PROCCED TO CHECKOUT</button>
 						
 						</div>
 					</td>
@@ -325,7 +325,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 		</tbody><!-- /tbody -->
 	</table>
 	<?php } else {
-echo "Your shopping Cart is empty";
+echo "Oops! Your cart is empty";
 		}?>
 </div>			</div>
 		</div> 

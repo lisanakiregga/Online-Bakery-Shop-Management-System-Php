@@ -1,2 +1,3 @@
 # Online-Bakery-Shop-Management-System-Php
 This system allows bakery owners to sell their products to customer online via a web interface. The user can order and then pay for the item.
+The goals and objectives of this online bakery shop is to be enable customers order for online cakes, cookies and breads ordering via the internet and also the administrator of the cake house able to manage all the products ordering and customers information in more effective which, the all the information will be keep into the database.

@@ -79,7 +79,8 @@ $st='Delivered';
      if($st==$currrentSt)
      { ?>
    <tr><td colspan="2"><b>
-      Product Delivered successfully </b></td>
+      Product Delivered successfully,
+       Thank you for choosing us </b></td>
    <?php } 
  
   ?>

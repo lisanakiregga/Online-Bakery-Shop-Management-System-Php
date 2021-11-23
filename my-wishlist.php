@@ -98,7 +98,7 @@ header('location:my-wishlist.php');
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
 				<li><a href="home.html">Home</a></li>
-				<li class='active'>Wishlish</li>
+				<li class='active'>My Wishlist</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
 	</div><!-- /.container -->
@@ -113,7 +113,7 @@ header('location:my-wishlist.php');
 		<table class="table">
 			<thead>
 				<tr>
-					<th colspan="4">my wishlist</th>
+					<th colspan="4">My Wishlist</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -158,7 +158,7 @@ $num=mysqli_num_rows($rt);
 				</tr>
 				<?php } } else{ ?>
 				<tr>
-					<td style="font-size: 18px; font-weight:bold ">Your Wishlist is Empty</td>
+					<td style="font-size: 18px; font-weight:bold ">Oh my! Your Wishlist is Empty</td>
 
 				</tr>
 				<?php } ?>

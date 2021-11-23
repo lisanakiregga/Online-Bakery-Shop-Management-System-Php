@@ -92,7 +92,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 			
 					<th class="cart-qty item">Quantity</th>
 					<th class="cart-sub-total item">Price Per unit</th>
-					<th class="cart-total item">Grand Total</th>
+					<th class="cart-total item">Total bill</th>
 					<th class="cart-total item">Payment Method</th>
 					<th class="cart-description item">Order Date</th>
 					<th class="cart-total last-item">Action</th>
@@ -138,7 +138,7 @@ while($row=mysqli_fetch_array($query))
 					Track</td>
 				</tr>
 <?php $cnt=$cnt+1;} } else { ?>
-				<tr><td colspan="8">Either order id or  Registered email id is invalid</td></tr>
+				<tr><td colspan="8">Ooops! Order id or Registered email id is invalid</td></tr>
 				<?php } ?>
 			</tbody><!-- /tbody -->
 		</table><!-- /table -->
